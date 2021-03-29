@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AchaApps</string>
+    <string name="Nama">Tassyakur Pasya</string>
+    <string name="NIM">10118009</string>
+    <string name="Kelas">IF01</string>
+    <string name="jenisKelamin">Laki-laki</string>
+    <string name="tempatLahit">Jakarta, 21 Januari 1999</string>
+    <string name="alamatRumah">Pemalang, Jawa tengah</string>
+    <string name="golonganDarah">B</string>
+    <string name="makananKesukaan">Bakso</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen20"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen70"
+        android:textSize="@dimen/satusp"
+        android:text="@string/Nama"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen70"
+        android:layout_below="@+id/v1"
+        android:textSize="@dimen/satusp"
+        android:text="@string/NIM"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen70"
+        android:layout_below="@+id/v2"
+        android:textSize="@dimen/satusp"
+        android:text="@string/Kelas"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <ImageView
+        android:id="@+id/v4"
+        android:layout_width="@dimen/dimen200"
+        android:layout_height="@dimen/dimen200"
+        android:src="@drawable/acha"
+        android:layout_below="@+id/v3"/>
+
+</RelativeLayout>
