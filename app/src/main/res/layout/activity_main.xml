@@ -9,8 +9,8 @@
     <TextView
         android:id="@+id/v1"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen70"
-        android:textSize="@dimen/satusp"
+        android:layout_height="@dimen/dimen50"
+        android:textSize="@dimen/duasp"
         android:text="@string/Nama"
         android:textColor="@color/black"
         android:background="@color/purple_200"
@@ -18,9 +18,9 @@
     <TextView
         android:id="@+id/v2"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen70"
+        android:layout_height="@dimen/dimen50"
         android:layout_below="@+id/v1"
-        android:textSize="@dimen/satusp"
+        android:textSize="@dimen/duasp"
         android:text="@string/NIM"
         android:textColor="@color/black"
         android:background="@color/purple_200"
@@ -28,18 +28,120 @@
     <TextView
         android:id="@+id/v3"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen70"
+        android:layout_height="@dimen/dimen50"
         android:layout_below="@+id/v2"
-        android:textSize="@dimen/satusp"
+        android:textSize="@dimen/duasp"
         android:text="@string/Kelas"
         android:textColor="@color/black"
         android:background="@color/purple_200"
         />
     <ImageView
         android:id="@+id/v4"
-        android:layout_width="@dimen/dimen200"
-        android:layout_height="@dimen/dimen200"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/dimen150"
+        android:layout_height="@dimen/dimen150"
         android:src="@drawable/acha"
         android:layout_below="@+id/v3"/>
+    <TextView
+        android:id="@+id/v5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen50"
+        android:layout_below="@+id/v4"
+        android:textSize="@dimen/duasp"
+        android:text="@string/jenisKelamin"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen50"
+        android:layout_below="@+id/v5"
+        android:textSize="@dimen/duasp"
+        android:text="@string/tempatLahit"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen50"
+        android:layout_below="@+id/v6"
+        android:textSize="@dimen/duasp"
+        android:text="@string/alamatRumah"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen50"
+        android:layout_below="@+id/v7"
+        android:textSize="@dimen/duasp"
+        android:text="@string/golonganDarah"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v8"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/makananKesukaan"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v9"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/minumanKesukaan"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v11"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v10"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/hobi"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v12"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v11"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/laguFavorit"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v13"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v12"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/filmFvt"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/v14"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen30"
+        android:layout_below="@+id/v13"
+        android:textSize="@dimen/tigasp"
+        android:text="@string/pekerjaansthKuliah"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        />
+
 
 </RelativeLayout>

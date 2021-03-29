@@ -8,5 +8,10 @@
     <string name="alamatRumah">Pemalang, Jawa tengah</string>
     <string name="golonganDarah">B</string>
     <string name="makananKesukaan">Bakso</string>
+    <string name="minumanKesukaan">Jus Sirsak</string>
+    <string name="hobi">Main Game</string>
+    <string name="laguFavorit">laguPOPIndonesia</string>
+    <string name="filmFvt">AOT Black Clover</string>
+    <string name="pekerjaansthKuliah">UsahaFotocopyModern</string>
 
 </resources>
